@@ -1,12 +1,12 @@
 exports.getName = function(name) {
-    console.log("Nama: " + name);
+    return("Nama: " + name);
 }
 exports.getBirthPlace = function (place) {
-    console.log("Tempat Lahir: " + place);
+    return("Tempat Lahir: " + place);
 }
 exports.getBirthDate = function(date) {
-    console.log("Tanggal Lahir: " + date);
+    return("Tanggal Lahir: " + date);
 }
 exports.getAddress = function(address) {
-    console.log("Alamat: " + address);
+    return("Alamat: " + address);
 }
